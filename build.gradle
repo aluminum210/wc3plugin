@@ -1,0 +1,14 @@
+apply plugin: 'java'
+
+group='guru.xgm.zahanc'
+version='1.0'
+
+repositories {
+	mavenCentral()
+	maven { url 'https://jitpack.io' }
+}
+
+dependencies {
+	compile gradleApi()
+	compile 'com.github.inwc3:JMPQ3:1.5.8'
+}
