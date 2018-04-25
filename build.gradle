@@ -10,5 +10,8 @@ repositories {
 
 dependencies {
 	compile gradleApi()
+	// https://github.com/inwc3/JMPQ3
 	compile 'com.github.inwc3:JMPQ3:1.5.8'
+	// https://jitpack.io/
+	compile 'com.github.User:Repo:Tag'
 }
